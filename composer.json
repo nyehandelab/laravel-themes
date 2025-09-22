@@ -1,8 +1,8 @@
 {
-    "name": "dalholm/laravel-themes",
+    "name": "nyehandel/laravel-themes",
     "description": "Laravel Themes",
     "keywords": ["themes", "laravel", "blade", "themeing"],
-    "homepage": "https://github.com/dalholm/laravel-themes",
+    "homepage": "https://github.com/nyehandelab/laravel-themes",
     "license": "MIT",
     "authors": [
         {
@@ -21,16 +21,16 @@
             "helpers/themes.php"
         ],
         "psr-4": {
-            "Dalholm\\Themes\\": "src/"
+            "Nyehandel\\Themes\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Dalholm\\Themes\\ThemesServiceProvider"
+                "Nyehandel\\Themes\\ThemesServiceProvider"
             ],
             "aliases": {
-                "Theme": "Dalholm\\Themes\\Facades\\Theme"
+                "Theme": "Nyehandel\\Themes\\Facades\\Theme"
             }
         }
     }
